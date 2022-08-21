@@ -1,7 +1,7 @@
 function inputPrismABAP() {
   let txtArea = document.querySelector("#txtHtmlStr").value;
   return `
-    <pre class="line-numbers"><code class="language-ABAP">${txtArea}</code>
+    <pre class="line-numbers mx-3"><code class="language-ABAP">${txtArea}</code>
     </pre>
     `;
 }
